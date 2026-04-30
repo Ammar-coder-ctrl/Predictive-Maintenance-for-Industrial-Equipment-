@@ -9,3 +9,8 @@ Tool Wear Monitoring: Tracking the cumulative usage time of equipment to predict
 Model Performance & Strategy
 Algorithm: Random Forest Classifier (100 Trees) with balanced class weights to handle data imbalance.
 Recall Optimization: The decision threshold was tuned to 0.2 to prioritize Recall (0.68). In industrial maintenance, catching a potential failure (Recall) is more critical than occasional false alarms (Precision).
+
+How to Use
+Clone the repo.
+Install requirements.
+load model.joblib and use it
